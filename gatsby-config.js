@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: `HiStaff`,
-        description: `Make your Staff and Workspace Happy`,
+        title: `Coraway`,
+        description: `On demand rental property showings.`,
         author: `@mostafasoufi`,
     },
     plugins: [

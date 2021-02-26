@@ -15,10 +15,10 @@ body {
   }
 
   a {
-    color: #8953B7;
+    color: #098C8C;
 
     &:hover, &:active {
-      color: #8953b7;
+      color: #098C8C;
     }
   }
 
@@ -47,7 +47,7 @@ body {
           font-size: 16px;
           line-height: 47px;
           display: block;
-          background: #8953B7;
+          background: #098C8C;
           border-radius: 4px;
           text-align: center;
           color: #FFFFFF;
@@ -169,7 +169,7 @@ body {
   }
 
   .call-to-action {
-    background-color: #8953B7;
+    background-color: #098C8C;
     color: #ffffff;
     padding: 65px 0;
     border-radius: 40px 40px 0px 0px;
@@ -210,7 +210,7 @@ body {
         justify-content: center;
         font-weight: bold;
         flex-direction: column;
-        color: #8953B7;
+        color: #098C8C;
 
         @media screen and (max-width: $break-small) {
           margin: 0 auto;
@@ -351,14 +351,14 @@ body {
               color: #797283;
 
               &:hover, &:active {
-                color: #8953b7;
+                color: #098C8C;
               }
             }
           }
         }
 
         .links__special {
-          background-color: #8953b7;
+          background-color: #098C8C;
           color: #ffffff;
           border-radius: 4px;
           padding: 2px 5px;
