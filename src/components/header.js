@@ -1,7 +1,7 @@
 import {Link} from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import logo from "../../static/images/logo.svg"
+import logo from "../../static/images/coraway.svg"
 
 const Header = ({siteTitle}) => (
     <header>
@@ -14,7 +14,7 @@ const Header = ({siteTitle}) => (
                 </div>
 
                 <div className={"get-started"}>
-                    <a href={"https://calendly.com/coraway/15min"}>Schedule a demo</a>
+                    <a href={"https://calendly.com/coraway-real-estate/15min"}>Schedule a demo</a>
                 </div>
             </div>
         </div>
