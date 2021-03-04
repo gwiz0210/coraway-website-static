@@ -3,11 +3,11 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import featureImage from "../../static/images/hero.png";
-import thumbnailEvent from "../../static/images/feature-event.png"
-import thumbnailBoard from "../../static/images/feature-board.png"
-import thumbnailNews from "../../static/images/feature-news.png"
-import thumbnailTeams from "../../static/images/feature-team.png"
-import thumbnailStaff from "../../static/images/feature-user.png"
+import thumbnailEvent from "../../static/images/feature-event-v2.png"
+import thumbnailBoard from "../../static/images/feature-board-v2.png"
+import thumbnailNews from "../../static/images/feature-news-v2.png"
+import thumbnailTeams from "../../static/images/feature-team-v2.png"
+import thumbnailStaff from "../../static/images/feature-user-v2.png"
 
 const IndexPage = () => (
     <Layout>
@@ -82,7 +82,7 @@ const IndexPage = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Team"} src={thumbnailTeams}/>
+                                <img alt={"Team"} src={thumbnailStaff}/>
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Users"} src={thumbnailStaff}/>
+                                <img alt={"Users"} src={thumbnailTeams}/>
                             </div>
                         </div>
 
@@ -111,7 +111,7 @@ const IndexPage = () => (
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
                     <h2>Get started today</h2>
-                    <p>Sign up and start increasing your productivity with Coraway.</p>
+                    <p>Sign up and start increasing your productivity today.</p>
                 </div>
 
                 <div className={"button"}>

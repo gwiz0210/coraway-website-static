@@ -12,6 +12,7 @@ import {StaticQuery, graphql, Link} from "gatsby"
 import Header from "./header"
 import "../../static/styles/main.scss"
 import logo from "../../static/images/coraway.svg"
+import logoPNG from "../../static/images/coraway-png.png"
 import iconTwitter from "../../static/images/icon-twitter.svg"
 import iconLinkedin from "../../static/images/icon-linkedin.svg"
 import iconGitHub from "../../static/images/icon-github.svg"
@@ -36,9 +37,9 @@ const Layout = ({children}) => (
                         <div className={"col-5"}>
                             <div className={"widget__item"}>
                                 <div className={"logo"}>
-                                    <Link to="/" title={"HiStaff"}>
-                                        <img alt={"Logo"} src={logo}/>
-                                    </Link>
+                                    {/* <Link to="/" title={"HiStaff"}>
+                                        <img alt={"Logo"} src={logoPNG}/>
+                                    </Link> */}
                                 </div>
 
                                 <div className={"about"}>
@@ -50,7 +51,7 @@ const Layout = ({children}) => (
                         <div className={"col-2"}>
                             <div className={"widget__item"}>
                                 <ul className={"links"}>
-                                    <h4>HiStaff</h4>
+                                    <h4>Coraway</h4>
                                     <ul>
                                         <li><Link to="/integrations/slack" title={"Integrations"}>Integrations</Link></li>
                                         <li><Link to="/about" title={"About Us"}>About</Link></li>
