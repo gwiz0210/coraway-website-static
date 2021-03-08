@@ -12,7 +12,6 @@ import {StaticQuery, graphql, Link} from "gatsby"
 import Header from "./header"
 import "../../static/styles/main.scss"
 import logo from "../../static/images/coraway.svg"
-import logoPNG from "../../static/images/coraway-png.png"
 import iconTwitter from "../../static/images/icon-twitter.svg"
 import iconLinkedin from "../../static/images/icon-linkedin.svg"
 import iconGitHub from "../../static/images/icon-github.svg"
@@ -37,13 +36,14 @@ const Layout = ({children}) => (
                         <div className={"col-5"}>
                             <div className={"widget__item"}>
                                 <div className={"logo"}>
-                                    {/* <Link to="/" title={"HiStaff"}>
-                                        <img alt={"Logo"} src={logoPNG}/>
-                                    </Link> */}
+                                    <Link to="/" title={"Coraway"}>
+                                        <img alt={"Logo"} src={logo}/>
+                                    </Link>
                                 </div>
 
                                 <div className={"about"}>
-                                    <p>A software that was created with the goal of solving the problems of Human Resources in small and medium-sized businesses.</p>
+                                    <p>Utilizing technology to modernize home showings. Property managers, long distance landlords and real estate agents can get their time back today!</p>
+                                    {/* A software that was created with the goal of solving the problems of Human Resources in small and medium-sized businesses. */}
                                 </div>
                             </div>
                         </div>
@@ -53,10 +53,11 @@ const Layout = ({children}) => (
                                 <ul className={"links"}>
                                     <h4>Coraway</h4>
                                     <ul>
-                                        <li><Link to="/integrations/slack" title={"Integrations"}>Integrations</Link></li>
-                                        <li><Link to="/about" title={"About Us"}>About</Link></li>
-                                        <li><a href={"https://histaff.io/blog"}>Blog</a></li>
-                                        <li><a className={"links__special"} href={"https://feedback.histaff.io/"} target={"_blank"} title={"We look forward to receiving your great feedback"}>Feedback</a></li>
+                                        {/* <li><Link to="/integrations/slack" title={"Integrations"}>Integrations</Link></li> */}
+                                        <li><Link to="/about" title={"About Us"}>About Us</Link></li>
+                                        <li><Link to="/partners" title={"Showing Partmers"}>Showing Partners</Link></li>
+                                        {/* <li><a href={"https://histaff.io/blog"}>Blog</a></li> */}
+                                        {/* <li><a className={"links__special"} href={"https://feedback.histaff.io/"} target={"_blank"} title={"We look forward to receiving your great feedback"}>Feedback</a></li> */}
                                     </ul>
                                 </ul>
                             </div>
@@ -88,7 +89,7 @@ const Layout = ({children}) => (
                     </div>
 
                     <div className={"copyright"}>
-                        <p>Copyright {new Date().getFullYear()}, {` `} <a href="https://histaff.io" title={"HiStaff"}>HiStaff</a>. All rights reserved.</p>
+                        <p>Copyright {new Date().getFullYear()}, {` `} <a href="https://coraway.co" title={"Coraway"}>Coraway</a>. All rights reserved.</p>
                     </div>
                 </div>
             </footer>

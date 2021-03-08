@@ -408,4 +408,23 @@ body {
       }
     }
   }
+
+  .get-started-landing {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 0;
+    a {
+      width: 180px;
+      height: 47px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 47px;
+      display: block;
+      background: #098C8C;
+      border-radius: 4px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  }
 }

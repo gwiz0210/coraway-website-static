@@ -5,10 +5,10 @@
   </a>
 </p>
 <h1 align="center">
-  HiStaff Static Website
+  Coraway Static Lanng Website
 </h1>
 
-HiStaff Static is a starter static website which useful plugins based on [Gatsby](https://www.gatsbyjs.org/) .
+Coraway Static is a starter static website which useful plugins based on [Gatsby](https://www.gatsbyjs.org/) .
 
 ## 🚀 Quick start
 

@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import featureImage from "../../static/images/hero.png";
+import featureImage from "../../static/images/hero-v2.png";
 import thumbnailEvent from "../../static/images/feature-event-v2.png"
 import thumbnailBoard from "../../static/images/feature-board-v2.png"
 import thumbnailNews from "../../static/images/feature-news-v2.png"
@@ -115,7 +115,7 @@ const IndexPage = () => (
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://app.histaff.io" target={"_blank"}>Get Started</a>
+                    <a href="https://coraway.typeform.com/to/hHz4zJBn" target={"_blank"}>Get Started</a>
                 </div>
             </div>
         </div>
