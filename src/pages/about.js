@@ -13,7 +13,7 @@ const AboutPage = () => (
 
         <div className={"page-header"}>
             <h2>What’s Coraway?</h2>
-            <p>At Coraway, we believe there is a better way to find tenants and fill vacancies. Coraway is boosting productivity for <br /> landlords, property managers, and real estate agents by offering new ways to show property to buyers <br />and sellers, increasing overall productivity and happiness.
+            <p>At Coraway, we believe there is a better, cost-efficient way to find tenants and fill vacancies. Coraway is boosting <br />productivity for landlords, property managers, and real estate agents by offering new ways to show<br /> property to buyers and sellers, increasing overall productivity and happiness.
             </p>
             <div className={"get-started-landing"}>
                     <a href={"https://coraway.typeform.com/to/Ttjs8g"}>Get Started</a>
@@ -30,16 +30,16 @@ const AboutPage = () => (
                     <div className={"col-6"}>
                         <div className={"item"}>
                             <img alt={"Information"} src={informationImage}/>
-                            <h3>Modernized Property Management</h3>
-                            <p>Having a human management software for businesses and startups is not always cost-effective. HiStaff allows companies to archive their employees' documents and information free of charge.</p>
+                            <h3>Empowering Landlords and Property Managers</h3>
+                            <p>Finding tenants to fill a vacancy is often time consuming and not always cost-effective. Coraway's technology driven solution empowers landlords to show their properties effectively.</p>
                         </div>
                     </div>
 
                     <div className={"col-6"}>
                         <div className={"item"}>
                             <img alt={"Event"} src={eventImage}/>
-                            <h3>Flexible Scheduling</h3>
-                            <p>How to hold internal events is one of the problems of companies. HiStaff by presenting new ideas allows event management to be done as easily as possible.</p>
+                            <h3>Agents Sell Faster with Increased Lead Conversions</h3>
+                            <p>Outsourcing home showings to potential setting allows a real estate broker to quickly pre-qualify prospective properties, shortens the sales cycle, increases productivity, revenue, and profitability.</p>
                         </div>
                     </div>
                 </div>
@@ -48,8 +48,8 @@ const AboutPage = () => (
                     <div className={"col-6"}>
                         <div className={"item"}>
                             <img alt={"Productivity"} src={ProductivityImage}/>
-                            <h3>Raise Productivity</h3>
-                            <p>Many factors are affecting the staff's productivity in the workplace, the relationship between manager and staff and environmental factors are the main factors, therefore we will focus on these two factors in achieving our goal. Ultimately, increasing employee's productivity results in increasing the quality of products and services that are going to be provided.</p>
+                            <h3>Increase Productivity with Flexible Scheduling </h3>
+                            <p>The life of a  real estate professional is a busy one, especially as business grows. Focus more on what matters, automate home showing scheduling and feedback responses.</p>
                         </div>
                     </div>
 
@@ -57,7 +57,8 @@ const AboutPage = () => (
                         <div className={"item"}>
                             <img alt={"Happiness"} src={happinessImage}/>
                             <h3>Showings Handled by Trained Professionals</h3>
-                            <p>It is Obvious that a happy employee will make the environment happy and energetic! We are constantly attempting to provide solutions for maximizing employee’s motivation and joy.</p>
+                            <p>Each Showing Partner has been thoroughly vetted with an excellent track record and passion for customer service, satisfaction, and extensively communicates showing feedback immediately. 
+                            </p>
                         </div>
                     </div>
                 </div>
