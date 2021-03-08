@@ -13,7 +13,7 @@ const PartnerPage = () => (
 
         <div className={"page-header"}>
             <h2>Want to become a Showing Partner with Coraway?</h2>
-            <p>Coraway is a technology that boost productivity for long distance landlords, property managers, and real estate agents <br />by offering new ways to show property to buyers and sellers, increasing overall productivity and happiness.</p>
+            <p>At Coraway, we support you and your business as an independent contractor with us whether you are a <br />landlord, property manager, or agent trying to make extra cash. Our goal is to help your business grow <br /> by connecting you with clients, initiating powerful relationships for the future.</p>
                 <div className={"get-started-landing"}>
                     <a href={"https://coraway.typeform.com/to/Ttjs8g"}>Apply now</a>
                 </div>
@@ -29,8 +29,8 @@ const PartnerPage = () => (
                     <div className={"col-6"}>
                         <div className={"item"}>
                             <img alt={"Information"} src={informationImage}/>
-                            <h3>Earn Extra Income</h3>
-                            <p>Having a human management software for businesses and startups is not always cost-effective. HiStaff allows companies to archive their employees' documents and information free of charge.</p>
+                            <h3>Flexibly Earn Extra Income</h3>
+                            <p>Work how and when you want. We'll send you home showing opportunities wherever you are. Set up your weekly availability and we'll do the rest.</p>
                         </div>
                     </div>
 
@@ -38,7 +38,7 @@ const PartnerPage = () => (
                         <div className={"item"}>
                             <img alt={"Event"} src={eventImage}/>
                             <h3>Time is Money. Grow your Business</h3>
-                            <p>How to hold internal events is one of the problems of companies. HiStaff by presenting new ideas allows event management to be done as easily as possible.</p>
+                            <p>Coraway connects you with clients in your area, and ways to market yourself — so you can focus on what you do best, on your own terms.</p>
                         </div>
                     </div>
                 </div>
@@ -47,16 +47,16 @@ const PartnerPage = () => (
                     <div className={"col-6"}>
                         <div className={"item"}>
                             <img alt={"Productivity"} src={ProductivityImage}/>
-                            <h3>Increase Productivity</h3>
-                            <p>Many factors are affecting the staff's productivity in the workplace, the relationship between manager and staff and environmental factors are the main factors, therefore we will focus on these two factors in achieving our goal. Ultimately, increasing employee's productivity results in increasing the quality of products and services that are going to be provided.</p>
+                            <h3>The better the reviews, the better the reward</h3>
+                            <p>Gain recognition for your great work through reviews and your Showing Success Score. The more great reviews you recieve from clients, the more pay and opportunity!</p>
                         </div>
                     </div>
 
                     <div className={"col-6"}>
                         <div className={"item"}>
                             <img alt={"Happiness"} src={happinessImage}/>
-                            <h3>Grow your Skills and Expertise</h3>
-                            <p>It is Obvious that a happy employee will make the environment happy and energetic! We are constantly attempting to provide solutions for maximizing employee’s motivation and joy.</p>
+                            <h3>Enhance your Skills and Real Estate Expertise</h3>
+                            <p>Becoming a Showing Partner is an amazing opportunity for both seasoned agents looking to make extra cash and new agents looking to get their feet wet in the industry.</p>
                         </div>
                     </div>
                 </div>
