@@ -13,7 +13,8 @@ const PartnerPage = () => (
 
         <div className={"page-header"}>
             <h2>Want to become a Showing Partner with Coraway?</h2>
-            <p>At Coraway, we support you and your business as an independent contractor with us whether you are a <br />landlord, property manager, or agent trying to make extra cash. Our goal is to help your business grow <br /> by connecting you with clients, initiating powerful relationships for the future.</p>
+            <p>Show homes to clients, attend inspections, and more. At Coraway, we support you and your business as an<br />  independent contractor with us whether you are a landlord, property manager,
+             or agent looking to make extra cash. <br />Our goal is to help your business grow by connecting you with clients, initiating powerful relationships for the future.</p>
                 <div className={"get-started-landing"}>
                     <a href={"https://coraway.typeform.com/to/Ttjs8g"}>Apply now</a>
                 </div>

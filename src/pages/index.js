@@ -16,7 +16,7 @@ const IndexPage = () => (
         <div className={"page-header home"}>
             <h1>Property showings on-demand</h1>
             {/* <p>Landlords, real estate agents, and property managers can have their property shown<br/> to potential renters and buyers. Cut vacancy costs by up to 90% today!</p> */}
-            <p>Outsource your property showings inspections and more to reliable, customer-focused agents <br/>and partners. Close more leads and cut vacancy costs by up to 90% today! </p>
+            <p>Outsource your property showings, inspections and more to reliable, customer-focused agents <br/>and partners. Close more leads and cut vacancy costs by up to 90% today! </p>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
         <div className={"container"}>
