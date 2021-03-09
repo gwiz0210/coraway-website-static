@@ -42,7 +42,7 @@ const Layout = ({children}) => (
                                 </div>
 
                                 <div className={"about"}>
-                                    <p>Utilizing technology to modernize home showings. Property managers, long distance landlords and real estate agents can get their time back today!</p>
+                                    <p>Utilizing technology to modernize home showings. Landlords, property managers, and real estate agents can get their time back today!</p>
                                     {/* A software that was created with the goal of solving the problems of Human Resources in small and medium-sized businesses. */}
                                 </div>
                             </div>
