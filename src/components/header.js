@@ -14,7 +14,7 @@ const Header = ({siteTitle}) => (
                 </div>
 
                 <div className={"get-started"}>
-                    <a href={"https://calendly.com/coraway-real-estate/15min"}>Schedule a demo</a>
+                    <a href={"https://calendly.com/coraway-real-estate/15min"} target={"_blank"}>Schedule a demo</a>
                 </div>
             </div>
         </div>
