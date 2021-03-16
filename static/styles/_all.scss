@@ -59,8 +59,8 @@ body {
   .page-header {
     text-align: center;
     padding: 100px 0 100px 0;
-    background-color: #fdfaff;
-    border-radius: 0px 0px 40px 40px;
+    
+    // border-radius: 0px 0px 40px 40px;
 
     h1 {
       font-style: normal;
@@ -93,6 +93,30 @@ body {
 
     &.home {
       padding-bottom: 30px;
+      background-color: #fdfaff;
+    }
+
+    &.about {
+      padding-bottom: 30px;
+      background-color: rgb(242,249,242);
+      .get-started {
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+        a {
+          width: 220px;
+          height: 47px;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 47px;
+          display: block;
+          background: #098C8C;
+          border-radius: 4px;
+          text-align: center;
+          color: #FFFFFF;
+        }
+      }
     }
 
     @media screen and (max-width: $break-small) {
@@ -164,6 +188,44 @@ body {
 
       h2 {
         margin-top: 10px;
+      }
+    }
+  }
+
+  .for-agents {
+    .button {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      @media screen and (max-width: $break-small) {
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+      }
+
+      a {
+        font-size: 18px;
+        background-color: #64be86;
+        width: 184px;
+        margin-left: auto;
+        border-radius: 4px;
+        height: 54px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-weight: bold;
+        flex-direction: column;
+        color: #098C8C;
+
+        @media screen and (max-width: $break-small) {
+          margin: 0 auto;
+        }
+
+        &:active {
+
+        }
       }
     }
   }
@@ -427,4 +489,22 @@ body {
       color: #FFFFFF;
     }
   }
+
+  .subtitle {
+    margin: auto;
+    width: 70%;
+    padding-bottom: 25px;
+  }
+  .centered-text {
+    margin: auto;
+
+    &.header {
+      width: 60%;
+    }
+    &.desc {
+      width: 75%;
+    }
+  }
+
+
 }

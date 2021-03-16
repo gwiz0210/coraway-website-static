@@ -14,10 +14,19 @@ const IndexPage = () => (
         <SEO title="Home showings, on-demand."/>
 
         <div className={"page-header home"}>
-            <h1>Property showings on-demand</h1>
+            <h1>Outsource real estate tasks, on-demand.</h1>
             {/* <p>Landlords, real estate agents, and property managers can have their property shown<br/> to potential renters and buyers. Cut vacancy costs by up to 90% today!</p> */}
-            <p>Outsource your property showings, inspections and more to reliable, customer-focused agents <br/>and partners. Close more leads and cut vacancy costs by up to 90% today! </p>
+            <p className={"centered-text header"}>Outsource your property showings, inspections and more to reliable, customer-focused agents and partners. Close more leads and cut vacancy costs by up to 90% today! </p>
             <img alt={"Dashboard"} src={featureImage}/>
+        </div>
+        <div className={"page-header about"}>
+            <h2 className={"subtitle"}>Are you a real estate professional looking to make extra money?</h2>
+            <p className={"centered-text desc"}>Show homes, attend inspections, and more as a Coraway partner agent. You'll work directly with customers on your schedule earning competitive pay for every event. No real estate license? Don't worry! We can help you get one.</p>
+            <div className={"get-started"}>
+                <div className={"button"}>
+                    <a href="https://coraway.typeform.com/to/Ttjs8g" target={"_blank"}>Apply now</a>
+                </div>
+            </div>
         </div>
         <div className={"container"}>
             <div className={"features"}>
@@ -107,7 +116,6 @@ const IndexPage = () => (
                 </div>
             </div>
         </div>
-
         <div className={"call-to-action"}>
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
