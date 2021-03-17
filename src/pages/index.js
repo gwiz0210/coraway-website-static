@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
 import featureImage from "../../static/images/hero-v2.png";
 import thumbnailEvent from "../../static/images/feature-event-v2.png"
 import thumbnailBoard from "../../static/images/feature-board-v2.png"
@@ -24,7 +25,9 @@ const IndexPage = () => (
             <p className={"centered-text desc"}>Show homes, attend inspections, and more as a Coraway partner agent. You'll work directly with customers on your schedule earning competitive pay for every event. No real estate license? Don't worry! We can help you get one.</p>
             <div className={"get-started"}>
                 <div className={"button"}>
-                    <a href="https://coraway.typeform.com/to/Ttjs8g" target={"_blank"}>Apply now</a>
+                    <a href="https://coraway.typeform.com/to/Ttjs8g" target={"_blank"} onClick ={e => { trackCustomEvent({
+                        category: "Apply Now Landing page", action: "Click", label: "Apply now landing button clicked"
+                    })}}>Apply now</a>
                 </div>
             </div>
         </div>
@@ -124,7 +127,9 @@ const IndexPage = () => (
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://coraway.typeform.com/to/hHz4zJBn" target={"_blank"}>Get Started</a>
+                    <a href="https://coraway.typeform.com/to/hHz4zJBn" target={"_blank"} onClick ={e => { trackCustomEvent({
+                        category: "Get started", action: "Click", label: "Get started button clicked"
+                    })}}>Get Started</a>
                 </div>
             </div>
         </div>

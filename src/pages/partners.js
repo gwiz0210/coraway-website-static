@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
 import informationImage from "../../static/images/Information-document.svg";
 import eventImage from "../../static/images/Event-managment.svg";
 import ProductivityImage from "../../static/images/Increase-Productivity.svg";
@@ -16,7 +17,9 @@ const PartnerPage = () => (
             <p>Show homes to clients, attend inspections, and more. At Coraway, we support you and your business as an<br />  independent contractor with us whether you are a landlord, property manager,
              or agent looking to make extra cash. <br />Our goal is to help your business grow by connecting you with clients, initiating powerful relationships for the future.</p>
                 <div className={"get-started-landing"}>
-                    <a href={"https://coraway.typeform.com/to/Ttjs8g"}>Apply now</a>
+                    <a href={"https://coraway.typeform.com/to/Ttjs8g"} target={"_blank"} onClick ={e => { trackCustomEvent({
+                        category: "Apply Now Partners Page", action: "Click", label: "Apple now partners page button clicked"
+                    })}}>Apply now</a>
                 </div>
         </div>
 

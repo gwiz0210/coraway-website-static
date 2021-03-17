@@ -9,6 +9,7 @@
     "gatsby-cli": "^2.7.47",
     "gatsby-image": "^2.1.2",
     "gatsby-omni-font-loader": "^1.1.1",
+    "gatsby-plugin-google-analytics": "^3.0.0",
     "gatsby-plugin-manifest": "^2.1.1",
     "gatsby-plugin-offline": "^2.1.1",
     "gatsby-plugin-react-helmet": "^3.0.12",
